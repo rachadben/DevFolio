@@ -17,7 +17,5 @@ function sendMessage() {
         alert('thank you, '+ params['sendername'] + '! Your message as been sent.');
      })
      .catch();
-
-
 }
 

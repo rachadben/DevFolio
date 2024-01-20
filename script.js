@@ -7,10 +7,10 @@ function sendmessage() {
     var templateID= "template_hxu1z4n";
 
     var params = {
-        sendername: document.querySelector("sendername").value,
-        senderemail: document.querySelector("senderemail").value,
-        subject: document.querySelector("subject").value,
-        message: document.querySelector("message").value
+        sendername: document.querySelector("#name").value,
+        senderemail: document.querySelector("#email").value,
+        subject: document.querySelector("#subject").value,
+        message: document.querySelector("#message").value
     };
 
     emailjs.send("service_umb5x8f", "template_hxu1z4n", params).then(res => {

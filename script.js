@@ -7,8 +7,8 @@ function sendmessage() {
     var templateID= "template_hxu1z4n";
 
     var params = {
-        sendername: document.querySelector("from_name").value,
-        senderemail: document.querySelector("email_id").value,
+        sendername: document.querySelector("sendername").value,
+        senderemail: document.querySelector("senderemail").value,
         subject: document.querySelector("subject").value,
         message: document.querySelector("message").value
     };

@@ -14,7 +14,7 @@ function sendmessage() {
     };
 
     emailjs.send("service_umb5x8f", "template_hxu1z4n", params).then(res => {
-        alert('thank you, '+ params['sendername'] + '! Your message as been sent.');
+        alert('merci, '+ params['sendername'] + '! Votre message a été envoyé.');
      })
      .catch();
 }
